@@ -9,21 +9,17 @@
 
 </div>
 <!-- PROJECT DESCRIPTION -->
+This Portfolio project consist of two section one is header locate at the top of the pages and  other is main section that is locate under header, this project is designed using html and css and setup consist of linters in it.
 
 # 📖 [portfolio]
 
-> Describe your project in 1 or 2 sentences.
-
 **[Portfolio]** is a web application that help us to set up the linters for the project,that we will use to test the project.and then we design and Deploy it to the github
-
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 #### this project have two section one is header with mobile first and one section after header.
 
 
 <!-- Features -->
 
-### Kheader-section features</a>
+### header-section features this is the branch used to to add files and folder including index.html and style.css to make header and main sections of the page
 
 
 - **[Test Linters of HTML and CSS ]**
@@ -39,9 +35,6 @@
 
 <!-- GETTING STARTED -->
 
-
-
-> Describe how a new developer could make use of your project.
 to get start with this testing for new developer we could first start with installing the following things linters,lighthouse, .hintrc,stylelintrc.json,
 then create the index.html and style.css, to create and style the mobile first
 
@@ -60,26 +53,7 @@ Clone this repository to your desired folder:
 
 Use the command for clone the report
 git clone https://github.com/zbahati/Portfolio.git
-<!--
-Example commands:
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
 
-
-
-### Run tests
-
-You need to push the project to the github then the system will make the test
-First you need to create branch by using
-git checkout -b header-section,
-then use the following command to push you branch
-
-- git add .
-- git commit -m 'add your message'
-- git push
 
 ### Deployment
 
@@ -87,14 +61,6 @@ You can deploy this project using GitHub by going on
 1.Setting
 2.pages
 3. publish the page
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,10 +76,6 @@ Example:
 - LinkedIn: [LinkedIn](https://linkedin.com/in/zirimwabagabo-bahati)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-
 
 ## 📝 License <a name="license"></a>
 
