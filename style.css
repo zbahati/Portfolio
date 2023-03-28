@@ -46,8 +46,7 @@ header h1 {
 }
 
 #about,
-#contact,
-#portfolio {
+#contact {
   height: 700px;
   width: 100%;
 }
@@ -60,9 +59,9 @@ header h1 {
 }
 
 #portfolio {
-  background: url('images/header-shapes\ mobile.png');
-  margin: 5.7rem 0;
+  margin: 4rem 0 0 0;
   width: 100%;
+  background: url('images/portfolio.png') no-repeat;
 }
 
 #portfolio .portfolio-header {
