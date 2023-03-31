@@ -389,6 +389,21 @@ header {
 
   .action .project:hover {
     background: #6070ff;
+    color: #fff;
+  }
+
+  .action .project:active {
+    background: #2230d2;
+    color: #fff;
+  }
+
+  button:enabled {
+    background: #fff;
+  }
+
+  .action .project:disabled {
+    background: #e5e5e5;
+    color: #5e6c84;
   }
 
   .project h1 {
@@ -402,6 +417,10 @@ header {
 
   .project h1:hover {
     color: #fff;
+  }
+
+  .action .project h1:enabled {
+    color: #6070ff;
   }
 
   #about-myself {
