@@ -45,17 +45,7 @@ header {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-}
-
-.container {
-  width: 90%;
-  padding-left: 24px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  line-height: 1.25rem;
-  text-align: center;
-  color: var(--text-colored-blue);
+  padding: 10px;
 }
 
 #about {
@@ -107,6 +97,14 @@ header {
 
   .humberger-btn {
     color: var(--text-colored-blue);
+    padding: 10px;
+  }
+
+  .container {
+    width: 375px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .shapes {
