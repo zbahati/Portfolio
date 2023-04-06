@@ -48,10 +48,6 @@ header {
   padding: 10px;
 }
 
-#about {
-  height: 2788px;
-}
-
 #portfolio {
   background: url('images/background-color.png');
   top: 0;
@@ -64,6 +60,10 @@ header {
   width: 90%;
   padding-top: 8rem;
   margin: 0 auto;
+}
+
+.text-paragraph {
+  padding-top: 30px;
 }
 
 .portfolio-desc {
@@ -91,6 +91,10 @@ header {
 }
 
 @media screen and (min-width: 375px) {
+  #about {
+    height: 2788px;
+  }
+
   nav ul {
     display: none;
   }
@@ -101,7 +105,7 @@ header {
   }
 
   .container {
-    width: 375px;
+    min-width: 375px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -111,6 +115,7 @@ header {
     background: url('images/background-shape.png');
     background-repeat: no-repeat;
     padding-top: 100px;
+    background-size: 100%;
     background-position-y: 100px;
     margin-left: 4%;
     display: flex;
@@ -118,7 +123,7 @@ header {
   }
 
   .shapes h2 {
-    width: 327px;
+    min-width: 327px;
     top: 114px;
     left: 24px;
     font-size: 40px;
@@ -131,7 +136,7 @@ header {
   }
 
   .shapes .text-paragraph {
-    width: 327px;
+    min-width: 327px;
     height: 146px;
     font-family: 'Poppins';
     font-style: normal;
@@ -143,7 +148,7 @@ header {
 
   .about {
     position: absolute;
-    width: 375px;
+    min-width: 375px;
     left: 0;
     top: 718px;
     display: grid;
@@ -153,7 +158,7 @@ header {
   }
 
   .about .work-card {
-    width: 327px;
+    min-width: 327px;
     height: 552px;
     display: flex;
     flex-direction: column;
@@ -166,7 +171,7 @@ header {
   }
 
   .about .work-card1 {
-    width: 327px;
+    min-width: 327px;
     height: 596px;
     display: flex;
     flex-direction: column;
@@ -179,28 +184,29 @@ header {
   }
 
   .portfolio-image {
-    width: 295px;
+    min-width: 295px;
     height: 220px;
     background: url('images/work1.png');
     border-radius: 8px;
+    background-size: 100%;
   }
 
   .portfolio-image1 {
-    width: 295px;
+    min-width: 295px;
     height: 220px;
     background: url('images/work2.png');
     border-radius: 8px;
   }
 
   .portfolio-image2 {
-    width: 295px;
+    min-width: 295px;
     height: 220px;
     background: url('images/work3.png');
     border-radius: 8px;
   }
 
   .portfolio-image3 {
-    width: 295px;
+    min-width: 295px;
     height: 220px;
     background: url('images/work4.png');
     border-radius: 8px;
@@ -212,7 +218,7 @@ header {
     align-items: flex-start;
     padding: 0;
     gap: 12px;
-    width: 295px;
+    min-width: 295px;
     height: 288px;
     flex: none;
     order: 1;
@@ -225,7 +231,7 @@ header {
     align-items: flex-start;
     padding: 0;
     gap: 12px;
-    width: 295px;
+    min-width: 295px;
     min-height: 80px;
     flex: none;
     order: 0;
@@ -233,7 +239,7 @@ header {
   }
 
   .title {
-    width: 295px;
+    min-width: 295px;
     min-height: 36px;
     font-family: 'Poppins';
     font-style: normal;
@@ -247,7 +253,7 @@ header {
   }
 
   .title1 {
-    width: 295px;
+    min-width: 295px;
     height: 80px;
     font-family: 'Poppins';
     font-style: normal;
@@ -257,7 +263,7 @@ header {
   }
 
   .specialist {
-    width: 256px;
+    min-width: 256px;
     height: 32px;
     display: flex;
     justify-content: space-between;
@@ -281,7 +287,7 @@ header {
   }
 
   .role {
-    width: 100px;
+    min-width: 100px;
     height: 16px;
     font-family: 'Poppins';
     font-style: normal;
@@ -298,7 +304,7 @@ header {
   }
 
   .work-description p {
-    width: 295px;
+    min-width: 295px;
     height: 76px;
     font-family: 'Poppins';
     font-style: normal;
@@ -312,7 +318,7 @@ header {
     float: left;
     padding: 0;
     padding-top: 12px;
-    width: 320px;
+    min-width: 320px;
     height: 24px;
   }
 
@@ -320,7 +326,7 @@ header {
     display: inline-block;
     padding: 4px 10px;
     text-align: center;
-    width: 57px;
+    min-width: 57px;
     height: 24px;
     background: #ebebff;
     border-radius: 8px;
@@ -331,7 +337,7 @@ header {
     display: inline-block;
     padding: 4px 8px;
     text-align: center;
-    width: 49px;
+    min-width: 49px;
     height: 24px;
     background: #ebebff;
     border-radius: 8px;
@@ -342,7 +348,7 @@ header {
     display: inline-block;
     padding: 4px 8px;
     text-align: center;
-    width: 92px;
+    min-width: 92px;
     height: 24px;
     background: #ebebff;
     border-radius: 8px;
@@ -350,7 +356,7 @@ header {
   }
 
   .action {
-    width: 295px;
+    min-width: 295px;
     height: 72px;
     position: relative;
     padding-top: 16px;
@@ -365,7 +371,7 @@ header {
     padding: 12px;
     gap: 10px;
     position: absolute;
-    width: 176px;
+    min-width: 176px;
     height: 48px;
     text-align: center;
     justify-content: center;
@@ -417,7 +423,7 @@ header {
     padding: 114px 24px;
     gap: 24px;
     position: absolute;
-    width: 375px;
+    min-width: 375px;
     height: 1062.15px;
     top: 3606px;
     border-top-right-radius: 10%;
@@ -431,7 +437,7 @@ header {
     align-items: flex-start;
     padding: 0;
     gap: 12px;
-    width: 327px;
+    min-width: 327px;
     height: 346px;
   }
 
@@ -446,7 +452,7 @@ header {
   }
 
   .about-top .portfolio-header h2 {
-    width: 327px;
+    min-width: 327px;
     height: 35px;
     font-family: 'Poppins';
     font-style: normal;
@@ -469,7 +475,7 @@ header {
   }
 
   .about-top .text-paragraph {
-    width: 327px;
+    min-width: 327px;
     height: 147px;
     font-family: 'Poppins';
     font-style: normal;
@@ -559,7 +565,7 @@ header {
 
   #contact {
     position: relative;
-    width: 425px;
+    min-width: 425px;
     height: 779px;
     left: 0;
     top: 4100px;
@@ -650,13 +656,258 @@ header {
 }
 
 @media screen and (min-width: 768px) {
-  nav ul {
+  .container {
+    width: 90%;
+    margin: auto;
     display: flex;
-    gap: 2rem;
-    color: var(--text-colored-blue);
   }
 
   .humberger-btn {
     display: none;
+  }
+
+  nav ul {
+    display: flex;
+    gap: 2rem;
+  }
+
+  #portfolio {
+    padding-top: 110px;
+  }
+
+  .work-description p {
+    width: 100%;
+  }
+
+  .shapes {
+    width: 100%;
+    background: url('images/Header\ bg@2x.png');
+    background-size: 100%;
+  }
+
+  .shapes .portfolio-header {
+    width: 100%;
+    height: 112px;
+    position: relative;
+    margin: auto;
+  }
+
+  .shapes .portfolio-header h2 {
+    position: absolute;
+    top: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.37px;
+  }
+
+  .portfolio-desc .text-paragraph {
+    width: 91%;
+    height: 80px;
+    position: relative;
+    float: left;
+    margin: -20px 20px;
+  }
+
+  .shapes .text-paragraph p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #344563;
+  }
+
+  .primary_text h3 {
+    padding-left: 20px;
+  }
+
+  .primary_text .icons {
+    padding-left: 20px;
+  }
+
+  #about {
+    width: 100%;
+    display: flex;
+    padding-top: 30px;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  #about .work-card {
+    width: 80%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+
+  #about .work-card1 {
+    width: 80%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "work-description portfolio-image1";
+    gap: 50px;
+  }
+
+  .portfolio-image1 {
+    grid-area: portfolio-image1;
+  }
+
+  .portfolio-image3 {
+    grid-area: portfolio-image1;
+  }
+
+  #about .work-card .portfolio-image {
+    background: url(images/work-desk1.png);
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  #about .work-card1 .portfolio-image1 {
+    background: url(images/work2.png);
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  #about .work-card .portfolio-image2 {
+    background: url(images/work4.png);
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  #about .work-card1 .portfolio-image3 {
+    background: url(images/work3.png);
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  #about .work-card .work-description {
+    width: 100%;
+  }
+
+  #about .work-card1 .work-description {
+    width: 100%;
+  }
+
+  #about-myself {
+    background: url('images/about-bg.png');
+    top: 2706px;
+    width: 100%;
+  }
+
+  .about-top {
+    width: 90%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+  }
+
+  form .action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .about-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .about-section .action {
+    position: absolute;
+    left: 48px;
+    margin-top: 230px;
+  }
+
+  .about-my-self-position {
+    position: absolute;
+    left: 30px;
+    padding-bottom: 40px;
+  }
+
+  .language-list {
+    width: 100%;
+    position: relative;
+  }
+
+  .language-list .icons-framework {
+    position: absolute;
+    margin-left: 92%;
+  }
+
+  .languages-title {
+    width: 90%;
+    display: flex;
+  }
+
+  .language-section {
+    width: 80%;
+  }
+
+  .language-section .languages-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .language-list .languages-section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .framework {
+    width: 100%;
+  }
+
+  .language-list .languages-section .languages {
+    width: 70%;
+    height: 40%;
+    display: block;
+    text-align: center;
+  }
+
+  .languages span {
+    display: flex;
+    justify-content: center;
+  }
+
+  #contact {
+    top: 2800px;
+    width: 100%;
+    background-image: url('images/contact-desktop.png');
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  form {
+    width: 50%;
+    margin: auto;
+  }
+
+  form .project {
+    position: absolute;
+    width: 50%;
+    margin: 130px;
   }
 }
