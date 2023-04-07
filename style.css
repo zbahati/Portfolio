@@ -224,7 +224,7 @@ header {
     order: 1;
     flex-grow: 0;
   }
-  
+
   .desc-title {
     display: flex;
     flex-direction: column;
@@ -237,7 +237,7 @@ header {
     order: 0;
     flex-grow: 0;
   }
-  
+
   .title {
     min-width: 295px;
     min-height: 36px;
