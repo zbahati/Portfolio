@@ -170,19 +170,6 @@ header {
     border-radius: 16px;
   }
 
-  .about .work-card1 {
-    min-width: 327px;
-    height: 596px;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    align-items: center;
-    padding: 16px;
-    background: #fff;
-    border: 1px solid #dfe1e6;
-    border-radius: 16px;
-  }
-
   .portfolio-image {
     min-width: 295px;
     height: 220px;
@@ -210,6 +197,46 @@ header {
     height: 220px;
     background: url('images/work4.png');
     border-radius: 8px;
+  }
+
+  .project {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    position: absolute;
+    min-width: 176px;
+    height: 48px;
+    text-align: center;
+    justify-content: center;
+    left: 0;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+  }
+
+  .action .project:hover {
+    background: #6070ff;
+    color: #fff;
+    transform: scale(0.9);
+    transition: all 0.3s ease-in-out;
+  }
+
+  /* transition */
+
+  /* end of transition */
+  .about .work-card1 {
+    min-width: 327px;
+    height: 596px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    padding: 16px;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
   }
 
   .work-description {
@@ -361,28 +388,6 @@ header {
     position: relative;
     padding-top: 16px;
     padding-bottom: 10px;
-  }
-
-  .project {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 12px;
-    gap: 10px;
-    position: absolute;
-    min-width: 176px;
-    height: 48px;
-    text-align: center;
-    justify-content: center;
-    left: 0;
-    border: 1px solid #6070ff;
-    border-radius: 8px;
-  }
-
-  .action .project:hover {
-    background: #6070ff;
-    color: #fff;
   }
 
   .action .project:active {
