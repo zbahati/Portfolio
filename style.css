@@ -224,25 +224,6 @@ header {
   }
 
   /* transition */
-  .about .work-card .portfolio-image:hover {
-    transform: scale(0.8);
-    transition: all 0.3s ease-in-out;
-  }
-
-  .about .work-card1 .portfolio-image1:hover {
-    transform: scale(0.8);
-    transition: all 0.3s ease-in-out;
-  }
-
-  .about .work-card .portfolio-image2:hover {
-    transform: scale(0.8);
-    transition: all 0.3s ease-in-out;
-  }
-
-  .about .work-card1 .portfolio-image3:hover {
-    transform: scale(0.8);
-    transition: all 0.3s ease-in-out;
-  }
 
   /* end of transition */
   .about .work-card1 {
