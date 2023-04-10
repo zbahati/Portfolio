@@ -102,9 +102,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a href="https://zbahati.github.io/Portfolio/" name="live-demo"></a>
+## 🚀 Live Demo <a name="live-demo"></a>
 
- <p><a href="https://zbahati.github.io/Portfolio/"> PROJECT LINK </a></p>
+ <p><a href="https://zbahati.github.io/Portfolio/">PORTFOLIO PROJECT LINK </a></p>
 - [Comming soon]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
