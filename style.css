@@ -25,6 +25,10 @@ body {
   overflow-x: hidden;
 }
 
+label {
+  width: 100%;
+}
+
 header {
   width: 100%;
   position: fixed;
