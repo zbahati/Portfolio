@@ -677,6 +677,14 @@ header {
     bottom: 0;
     margin-bottom: 10px;
   }
+
+  .close-btn {
+    display: none;
+  }
+
+  .active {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -687,6 +695,10 @@ header {
   }
 
   .humberger-btn {
+    display: none;
+  }
+
+  .close-btn {
     display: none;
   }
 
