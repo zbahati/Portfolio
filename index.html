@@ -12,15 +12,23 @@
         <div class="container">
             <h1 class="logo">My Logo</h1>
             <nav>
-                <ul>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
+
+                <ul id="nav-menu">
+                    <li><a class="link-color" href="#portfolio1">Portfolio</a></li>
+                    <li><a  class="link-color" href="#about-myself">About</a></li>
+                    <li><a  class="link-color" href="#contact">Contact</a></li>
+                    <div class="close-btn" id="close-btn">
+                        <img height="30" src="icons/xmark-solid.svg" alt="close-btn">
+                    </div>
+
                 </ul>
-                <div class="humberger-btn">
+                <div class="humberger-btn" id="hamburger-btn">
                     <img src="icons/Union.svg" alt="button">
+
                 </div>
+
             </nav>
+
         </div>
     </header>
     <main>
@@ -53,7 +61,7 @@
                    </div>
             </section>
 
-            <section  id="about" class="about">
+            <section  id="portfolio1" class="about">
 
                     <div class="work-card">
                         <div class="portfolio-image">
@@ -184,7 +192,6 @@
                                     <h4 class="role">BackEnd Dev</h4>
                                     <div class="counter"></div>
                                     <h4 class="year">2015</h4>
-
                                 </div>
 
                             </div>
@@ -195,7 +202,6 @@
                                     <li class="tag">HTML</li>
                                     <li class="tag2">CSS</li>
                                     <li class="tag3">JavaScript</li>
-
                                 </ul>
 
                             </div>
@@ -340,6 +346,7 @@
 
     </main>
 
+    <script src="script.js"></script>
 
 </body>
 </html>
