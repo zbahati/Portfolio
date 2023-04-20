@@ -5,7 +5,6 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
-  list-style: none;
 }
 
 :root {
@@ -87,8 +86,10 @@ label {
 }
 
 @media screen and (min-width: 375px) {
-  #about {
-    height: 2788px;
+  #portfolio1 {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
   }
 
   nav ul {
@@ -508,6 +509,12 @@ label {
     color: #344563;
   }
 
+  .modal-tile span {
+    color: black;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
   .language-list ul {
     display: flex;
     flex-direction: column;
@@ -684,6 +691,124 @@ label {
   .active {
     display: none;
   }
+
+  #modal-overlay {
+    backdrop-filter: blur(30px);
+    filter: brightness(80%);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999999;
+  }
+
+  .modal {
+    height: 95%;
+    width: 80%;
+    background-color: white;
+    color: black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+    z-index: 99999999;
+  }
+
+  .modal-tile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+  }
+
+  .description {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  #modal-description {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .modal-lists {
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  #modal-live {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin: 7px;
+    justify-content: center;
+  }
+
+  #modal-live button {
+    padding: 6px 10px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+  }
+
+  .description ul li {
+    color: #6070ff;
+    background: #ebebff;
+    border-radius: 8px;
+  }
+
+  #modal-tags li {
+    list-style: none;
+    padding: 10px;
+    font-size: 10px;
+  }
+
+  .modal-body {
+    width: 100%;
+  }
+
+  .modal-body .description {
+    width: 90%;
+    display: flex;
+  }
+
+  .modal-content {
+    width: 95%;
+    margin: auto;
+  }
+
+  #modal-specialist {
+    display: flex;
+    gap: 40px;
+    color: #c1c7d0;
+  }
+
+  #modal-header-image {
+    margin: 20px 0;
+  }
+
+  #modal-specialist li:first-child {
+    list-style: none;
+    color: #344563;
+  }
+
+  .images-card {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .description ul {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -712,10 +837,11 @@ label {
   nav ul {
     display: flex;
     gap: 2rem;
+    list-style: none;
   }
 
-  #portfolio {
-    padding-top: 110px;
+  #portfolio1 {
+    margin-top: -110px;
   }
 
   .work-description p {
@@ -769,14 +895,6 @@ label {
 
   .primary_text .icons {
     padding-left: 20px;
-  }
-
-  #about {
-    width: 100%;
-    display: flex;
-    padding-top: 30px;
-    flex-direction: column;
-    gap: 40px;
   }
 
   #portfolio1 .work-card {
@@ -844,7 +962,7 @@ label {
     width: 100%;
   }
 
-  #about .work-card1 .work-description {
+  #portfolio1 .work-card1 .work-description {
     width: 100%;
   }
 
@@ -930,6 +1048,10 @@ label {
     text-align: center;
   }
 
+  .primary_text ul {
+    list-style: none;
+  }
+
   .languages span {
     display: flex;
     justify-content: center;
@@ -952,5 +1074,32 @@ label {
     position: absolute;
     width: 50%;
     margin: 130px;
+  }
+
+  .modal {
+    height: 90%;
+    width: 60%;
+    background-color: white;
+    color: black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+    z-index: 99999999;
+  }
+
+  #desktop-description {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  #desktop-description #modal-description {
+    width: 60%;
+  }
+
+  #desktop-description .modal-lists {
+    width: 38%;
   }
 }
