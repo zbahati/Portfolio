@@ -167,12 +167,12 @@ projectBtns.forEach((mobileProject) => {
     const modalSection = document.createElement('div');
     modalSection.className = 'modal';
     modalSection.innerHTML = `<div class="modal-content">
-      <div class="modal-tile">
+      <div class="modal-tile" class='flex'>
            <h2 id="modal-title">${project.name}</h2>
            <span class='btn-close'>&times;</span>
       </div>
       <div class="specialists">
-          <ul id="modal-specialist">
+          <ul id="modal-specialist" class='flex'>
             <li>${project.specialist[0]}</li>
             <li>${project.specialist[1]}</li>
             <li>${project.specialist[2]}</li>
@@ -188,12 +188,12 @@ projectBtns.forEach((mobileProject) => {
           <div id='modal-description'>
           ${project.description}</div>
           <div class='modal-lists'>
-              <ul id='modal-tags'>
+              <ul id='modal-tags' class='flex'>
                 <li class='tag'>${project.tags[0]}</li>
                 <li class='tag2'>${project.tags[1]}</li>
                 <li class='tag3'>${project.tags[2]}</li>
               </ul>
-              <div id='modal-live'>
+              <div id='modal-live' class= 'flex'>
                   <button id='source'>${project.sourceCode}</button>
                   <button id='source'>${project.deploymentLink}</button>
               </div>
