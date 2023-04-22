@@ -172,13 +172,13 @@
 
                         <form class="flex" action="https://formspree.io/f/mwkjrznn" method="POST" id="myForm">
                             <label for="Name">Names
-                            <input type="text" name="name" placeholder=" alexandra" maxlength="30" required>
+                            <input type="text" name="name" id="name" onchange="saveChange()" placeholder=" alexandra" maxlength="30" required>
                             </label>
                             <label for="email">Email
-                            <input type="email" name="email" placeholder=" alexandra@gmail.com" required>
+                            <input type="email" name="email" id="email" onchange="saveChange()" placeholder=" alexandra@gmail.com" required>
                             </label>
                             <label for="Message">Message
-                            <textarea name="message" maxlength="500" required placeholder="Write your message here"></textarea>                            </label>
+                            <textarea name="message" id="message" onchange="saveChange()" maxlength="500" required placeholder="Write your message here"></textarea>                            </label>
                             <div class="action">
                                 <button class="project" type="submit">
                                     <h1>Get in</h1>

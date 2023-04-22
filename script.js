@@ -214,3 +214,26 @@ projectBtns.forEach((mobileProject) => {
     });
   });
 });
+
+const saveChange = function () {
+  const names = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const message = document.getElementById('message').value;
+
+  const data = {
+    name: names,
+    email : email,
+    message,
+  };
+
+  const jsonData = JSON.stringify(data);
+  localStorage.setItem('data', jsonData);
+};
+
+const localData = JSON.parse(localStorage.getItem('data'));
+document.getElementById('name').value = localData.name;
+document.getElementById('email').value = localData.email;
+document.getElementById('message').value = localData.message;
+
+const formBtn = document.querySelector('.project');
+formBtn.addEventListener('change', saveChange);
