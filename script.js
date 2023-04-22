@@ -119,10 +119,10 @@ projects.forEach((project) => {
   cardSection.innerHTML = `<div class="portfolio-image">
   <img src="${project.projectImage}" width="100%" alt="project image">
   </div>
-  <div class="work-description">
-      <div class="desc-title">
+  <div class="work-description flex">
+      <div class="desc-title flex">
           <h1 class="title">${project.name}</h1>
-          <div class="specialist">
+          <div class="specialist flex">
               <h4 class="canopy">${project.company}</h4>
               <div class="counter"></div>
               <h4 class="role">${project.role}</h4>
@@ -142,7 +142,7 @@ projects.forEach((project) => {
 
       </div>
       <div class="action">
-          <button class="project" data-project="${project.name}" id="">
+          <button class="project flex" data-project="${project.name}" id="">
               <h1>${project.details}</h1>
           </button>
 

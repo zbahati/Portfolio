@@ -83,6 +83,7 @@ label {
   align-items: center;
   display: flex;
   justify-content: space-between;
+  list-style: none;
 }
 
 @media screen and (min-width: 375px) {
@@ -187,8 +188,11 @@ label {
     border-radius: 16px;
   }
 
-  .work-description {
+  .flex {
     display: flex;
+  }
+
+  .work-description {
     flex-direction: column;
     align-items: flex-start;
     padding: 0;
@@ -221,7 +225,6 @@ label {
   }
 
   .desc-title {
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0;
@@ -260,7 +263,6 @@ label {
   .specialist {
     min-width: 256px;
     height: 32px;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 10px;
@@ -360,7 +362,6 @@ label {
 
   .project {
     box-sizing: border-box;
-    display: flex;
     flex-direction: row;
     align-items: center;
     padding: 12px;
@@ -412,7 +413,6 @@ label {
   }
 
   #about-myself {
-    display: flex;
     flex-direction: column;
     align-items: center;
     padding: 114px 24px;
@@ -427,7 +427,6 @@ label {
   }
 
   .about-top {
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0;
@@ -461,7 +460,6 @@ label {
   }
 
   .languanges {
-    display: flex;
     padding-top: 60px;
   }
 
@@ -487,7 +485,6 @@ label {
   }
 
   .language-list ul {
-    display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 12px;
@@ -497,7 +494,6 @@ label {
   }
 
   .language-list ul .languages {
-    display: flex;
     gap: 12px;
     align-items: center;
     width: 303px;
