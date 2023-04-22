@@ -28,10 +28,13 @@ label {
   width: 100%;
 }
 
+.flex {
+  display: flex;
+}
+
 .logo {
   width: 150px;
   height: 20px;
-  display: flex;
   align-items: center;
   text-align: center;
   color: #6070ff;
@@ -81,14 +84,12 @@ label {
   width: 10rem;
   padding-top: 1rem;
   align-items: center;
-  display: flex;
   justify-content: space-between;
   list-style: none;
 }
 
 @media screen and (min-width: 375px) {
   #portfolio1 {
-    display: flex;
     flex-direction: column;
     gap: 70px;
   }
@@ -111,7 +112,6 @@ label {
 
   .container {
     min-width: 375px;
-    display: flex;
     margin: 0;
     position: relative;
   }
@@ -123,7 +123,6 @@ label {
     background-size: 100%;
     background-position-y: 100px;
     margin-left: 4%;
-    display: flex;
     flex-direction: column;
   }
 
@@ -135,7 +134,6 @@ label {
     font-weight: 700;
     line-height: 52px;
     color: #172b4d;
-    display: flex;
     align-items: center;
     font-style: normal;
   }
@@ -165,7 +163,6 @@ label {
   .about .work-card {
     min-width: 327px;
     height: 552px;
-    display: flex;
     flex-direction: column;
     gap: 12px;
     align-items: center;
@@ -173,23 +170,6 @@ label {
     background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
-  }
-
-  .about .work-card1 {
-    min-width: 327px;
-    height: 596px;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    align-items: center;
-    padding: 16px;
-    background: #fff;
-    border: 1px solid #dfe1e6;
-    border-radius: 16px;
-  }
-
-  .flex {
-    display: flex;
   }
 
   .work-description {
@@ -454,7 +434,6 @@ label {
     font-size: 40px;
     line-height: 52px;
     padding-left: 15px;
-    display: flex;
     align-items: center;
     color: #172b4d;
   }
@@ -500,6 +479,7 @@ label {
     height: 66.72px;
     background: #f7f7f9;
     border-radius: 8px;
+    list-style: none;
   }
 
   .language-list ul .languages img {
@@ -515,7 +495,6 @@ label {
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-    display: flex;
     align-items: center;
     color: #253858;
   }
@@ -524,12 +503,10 @@ label {
     padding-top: 24px;
     width: 327px;
     height: 72px;
-    display: flex;
     flex-direction: column;
   }
 
   .framework ul li {
-    display: flex;
     gap: 12px;
     padding: 10px;
     justify-content: space-between;
@@ -537,6 +514,7 @@ label {
     width: 303px;
     height: 66.72px;
     border-radius: 8px;
+    list-style: none;
   }
 
   .framework ul li span {
@@ -548,7 +526,6 @@ label {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-    display: flex;
     align-items: center;
     color: #000;
   }
@@ -579,7 +556,6 @@ label {
   }
 
   .contact-form {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -606,7 +582,6 @@ label {
   form {
     padding-top: 50px;
     width: 100%;
-    display: flex;
     flex-direction: column;
     gap: 20px;
     align-items: center;
@@ -686,7 +661,6 @@ label {
   }
 
   .modal-tile {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 8px 0;
@@ -694,7 +668,6 @@ label {
 
   .description {
     width: 100%;
-    display: flex;
     flex-direction: column;
     gap: 8px;
   }
@@ -712,7 +685,6 @@ label {
 
   #modal-live {
     width: 100%;
-    display: flex;
     gap: 10px;
     margin: 7px;
     justify-content: center;
@@ -748,7 +720,6 @@ label {
 
   .modal-body .description {
     width: 90%;
-    display: flex;
   }
 
   .modal-content {
@@ -757,7 +728,6 @@ label {
   }
 
   #modal-specialist {
-    display: flex;
     gap: 40px;
     color: #c1c7d0;
   }
@@ -774,7 +744,6 @@ label {
   }
 
   .description ul {
-    display: flex;
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -784,7 +753,6 @@ label {
 @media screen and (min-width: 768px) {
   .container {
     width: 98%;
-    display: flex;
     justify-content: space-between;
   }
 
@@ -838,7 +806,6 @@ label {
     font-weight: 700;
     font-size: 48px;
     line-height: 60px;
-    display: flex;
     align-items: center;
     letter-spacing: 0.37px;
   }
@@ -939,7 +906,6 @@ label {
   }
 
   form .action {
-    display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -947,8 +913,8 @@ label {
 
   .about-section {
     width: 100%;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-column: 1;
     gap: 40px;
   }
 
@@ -976,7 +942,6 @@ label {
 
   .languages-title {
     width: 90%;
-    display: flex;
   }
 
   .language-section {
@@ -985,7 +950,6 @@ label {
 
   .language-section .languages-title {
     width: 100%;
-    display: flex;
     justify-content: space-between;
   }
 
@@ -1011,7 +975,6 @@ label {
   }
 
   .languages span {
-    display: flex;
     justify-content: center;
   }
 
@@ -1019,19 +982,20 @@ label {
     top: 2800px;
     width: 100%;
     background-image: url('images/contact-desktop.png');
-    display: flex;
     justify-content: flex-end;
   }
 
   form {
     width: 50%;
     margin: auto;
+    position: relative;
   }
 
   form .project {
     position: absolute;
     width: 50%;
-    margin: 130px;
+    margin-top: 20px;
+    margin-left: 100px;
   }
 
   .modal {
@@ -1049,7 +1013,6 @@ label {
 
   #desktop-description {
     width: 100%;
-    display: flex;
     flex-direction: row;
   }
 

@@ -115,7 +115,7 @@ const portfolioSection = document.querySelector('.about');
 
 projects.forEach((project) => {
   const cardSection = document.createElement('div');
-  cardSection.className = 'work-card';
+  cardSection.className = 'work-card flex';
   cardSection.innerHTML = `<div class="portfolio-image">
   <img src="${project.projectImage}" width="100%" alt="project image">
   </div>
@@ -167,7 +167,7 @@ projectBtns.forEach((mobileProject) => {
     const modalSection = document.createElement('div');
     modalSection.className = 'modal';
     modalSection.innerHTML = `<div class="modal-content">
-      <div class="modal-tile" class='flex'>
+      <div class="modal-tile flex">
            <h2 id="modal-title">${project.name}</h2>
            <span class='btn-close'>&times;</span>
       </div>
@@ -184,7 +184,7 @@ projectBtns.forEach((mobileProject) => {
 
     <div class="modal-body">
 
-      <div class='description' id='desktop-description'>
+      <div class='description flex' id='desktop-description'>
           <div id='modal-description'>
           ${project.description}</div>
           <div class='modal-lists'>
