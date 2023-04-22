@@ -230,3 +230,26 @@ form.addEventListener('submit', (e) => {
     errorDiv.style.padding = '10px';
   }
 });
+
+const save = () => {
+  const userName = document.getElementById('name').value;
+  const userEmail = document.getElementById('email').value;
+  const message = document.getElementById('message').value;
+
+  const data = {
+    name: userName,
+    email: userEmail,
+    message,
+  };
+
+  const jsonData = JSON.stringify(data);
+  localStorage.setItem('data', jsonData);
+};
+
+const localData = JSON.parse(localStorage.getItem('data'));
+document.getElementById('name').value = localData.name;
+document.getElementById('email').value = localData.email;
+document.getElementById('message').value = localData.message;
+
+const formBtn = document.querySelector('.project');
+formBtn.addEventListener('change', save);
