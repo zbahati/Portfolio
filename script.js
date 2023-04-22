@@ -239,7 +239,7 @@ const save = () => {
   const data = {
     name: userName,
     email: userEmail,
-    message,
+    message: message,
   };
 
   const jsonData = JSON.stringify(data);
