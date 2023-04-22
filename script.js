@@ -214,3 +214,19 @@ projectBtns.forEach((mobileProject) => {
     });
   });
 });
+
+const form = document.querySelector('#myForm');
+const emailInput = form.querySelector('#email');
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const emailValue = emailInput.value.toLowerCase();
+  if (emailInput.value === emailValue) {
+    form.submit();
+  } else {
+    const errorDiv = document.querySelector('#errorDiv');
+    errorDiv.innerText = 'Email must be in lowercase';
+    errorDiv.style.color = 'red';
+    errorDiv.style.backgroundColor = 'white';
+    errorDiv.style.padding = '10px';
+  }
+});

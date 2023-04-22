@@ -169,21 +169,23 @@
                         <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding.
                             I’d love to help with it!
                         </p>
-
+                        
                         <form class="flex" action="https://formspree.io/f/mwkjrznn" method="POST" id="myForm">
                             <label for="Name">Names
-                            <input type="text" name="name" placeholder=" alexandra" maxlength="30" required>
+                            <input type="text"  name="name" placeholder=" alexandra" maxlength="30" required>
                             </label>
                             <label for="email">Email
-                            <input type="email" name="email" placeholder=" alexandra@gmail.com" required>
+                            <input type="email" id="email" name="email" placeholder=" alexandra@gmail.com" required>
                             </label>
+                            <span id="errorDiv"></span>
                             <label for="Message">Message
                             <textarea name="message" maxlength="500" required placeholder="Write your message here"></textarea>                            </label>
                             <div class="action">
-                                <button class="project" type="submit">
+                                <button class="project" id="submitBtn" type="submit">
                                     <h1>Get in</h1>
                                 </button>
                             </div>
+
                         </form>
                     </div>
                 </div>
