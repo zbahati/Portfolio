@@ -14,6 +14,8 @@
   --bg-color: hsl(240, 14%, 97%);
 }
 
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -70,6 +72,7 @@ label {
 }
 
 .primary_text {
+  position: relative;
   width: 90%;
   margin: 0 auto;
   padding: 1rem 0;
@@ -84,6 +87,7 @@ label {
   width: 10rem;
   padding-top: 1rem;
   align-items: center;
+  position: absolute;
   justify-content: space-between;
   list-style: none;
 }
