@@ -75,7 +75,7 @@ const projects = [
     details: 'see project',
     specialist: ['Microverse', 'Full Stack', '2023'],
     projectImage: 'project image/portfolio.png',
-    description: " I developed a portfolio web page using HTML and CSS and JavaScript. The page simply displays a portfolio. To ensure the code was valid and followed best practices, I utilized linters.",
+    description: ' I developed a portfolio web page using HTML and CSS and JavaScript. The page simply displays a portfolio. To ensure the code was valid and followed best practices, I utilized linters.',
     deploymentLink: '<a href="https://zbahati.github.io/Portfolio/">See live <img class="github-icon" src="icons/source.svg"></a>',
     sourceCode: '<a href="https://github.com/zbahati/Portfolio">see source <img class="github-icon" src="icons/github.svg"></a>',
     tags: ['HTML', 'CSS', 'JavaScript'],
@@ -91,8 +91,8 @@ const projects = [
     projectImage: 'project image/todolist.png',
     deploymentLink: '<a href="https://zbahati.github.io/Todo-list/dist/">See live<img class="github-icon" src="icons/source.svg"></a>',
     sourceCode: '<a href="https://github.com/zbahati/Todo-list">See source <img class="github-icon" src="icons/github.svg"></a>',
-    description: "An advanced Todo list project built with Webpack, designed for optimal performance in development and production environments. This project follows best practices and utilizes a modular architecture with ES6.",
-    tags: ['HTML', 'CSS', 'JavaScript', 'Webpack','ES6 modules'],
+    description: 'An advanced Todo list project built with Webpack, designed for optimal performance in development and production environments. This project follows best practices and utilizes a modular architecture with ES6.',
+    tags: ['HTML', 'CSS', 'JavaScript', 'Webpack', 'ES6 modules'],
   },
   {
     id: 'project4',
@@ -105,8 +105,8 @@ const projects = [
     projectImage: 'project image/AwesomeBook.png',
     deploymentLink: '<a href="https://zbahati.github.io/awesome-books-using-module/">see live <img class="github-icon" src="icons/source.svg"></a>',
     sourceCode: '<a href="https://github.com/zbahati/awesome-books-using-module/">see source <img hieght="10px" class="github-icon" src="icons/github.svg"></a>',
-    description: "The Awesome Books project is a simple website that displays a list of books and allows users to add and remove books from that list. The website is built using HTML, CSS, and JavaScript, es6, and it is designed to be interactive and easy to use.",
-    tags: ['HTML', 'CSS', 'JavaScript','luxon library'],
+    description: 'The Awesome Books project is a simple website that displays a list of books and allows users to add and remove books from that list. The website is built using HTML, CSS, and JavaScript, es6, and it is designed to be interactive and easy to use.',
+    tags: ['HTML', 'CSS', 'JavaScript', 'luxon library'],
   },
 
 ];
